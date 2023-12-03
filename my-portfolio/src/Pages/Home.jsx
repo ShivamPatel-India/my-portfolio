@@ -58,7 +58,7 @@ const Home = () => {
             intensity={1}
           />
           <Bird />
-          <Sky />
+          <Sky isRotating={isRotating}/>
           <Island
             position={islandPosition}
             scale={islandScale}
@@ -71,7 +71,7 @@ const Home = () => {
             planeScale={planeScale}
             planePosition={planePosition}
             isRotating={isRotating}
-            rotation={[0, 20, 0]}
+            rotation={[0, 20.1, 0]}
           />
         </Suspense>
       </Canvas>
