@@ -17,7 +17,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive ? "text-blue-500" : "text-black"
           }
-        >
+        > 
           About
         </NavLink>
         <NavLink
