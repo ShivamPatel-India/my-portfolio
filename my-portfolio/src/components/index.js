@@ -1,9 +1,15 @@
-import HomeInfo from "./HomeInfo";
+import CTA from "./CTA";
+import Alert from "./Alert";
 import Loader from "./Loader";
 import Navbar from "./Navbar";
-import Alert from "./Alert";
+import Footer from "./Footer";
+import HomeInfo from "./HomeInfo";
 
 export {
-    Alert,HomeInfo, Loader,
-    Navbar
-};
+    CTA,
+    Alert,
+    Loader,
+    Navbar,
+    Footer,
+    HomeInfo
+}
