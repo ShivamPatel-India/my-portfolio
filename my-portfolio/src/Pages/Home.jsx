@@ -4,10 +4,26 @@ import { Suspense, useEffect, useRef, useState } from "react";
 import { HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
 import { Bird, Island, Plane, Sky } from "../models";
+import sakura from "../assets/sakura.mp3";
 
 const Home = () => {
+  const audioRef = useRef(new Audio(sakura));
+  audioRef.current.volume = 0.4;
+  audioRef.current.loop = true;
+
   const [currentStage, setCurrentStage] = useState(1);
   const [isRotating, setIsRotating] = useState(false);
+  const [isPlayingMusic, setIsPlayingMusic] = useState(false);
+
+  useEffect(() => {
+    if (isPlayingMusic) {
+      audioRef.current.play();
+    }
+
+    return () => {
+      audioRef.current.pause();
+    };
+  }, [isPlayingMusic]);
 
   const adjustBiplaneForScreenSize = () => {
     let screenScale, screenPosition;
@@ -42,8 +58,8 @@ const Home = () => {
   const [islandScale, islandPosition] = adjustIslandForScreenSize();
 
   return (
-    <section className='w-full h-screen relative'>
-      <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
+    <section className="w-full h-screen relative">
+      <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
 
@@ -64,8 +80,8 @@ const Home = () => {
             intensity={2}
           />
           <hemisphereLight
-            skyColor='#b1e1ff'
-            groundColor='#000000'
+            skyColor="#b1e1ff"
+            groundColor="#000000"
             intensity={1}
           />
 
@@ -87,6 +103,15 @@ const Home = () => {
           />
         </Suspense>
       </Canvas>
+
+      <div className='absolute bottom-2 left-2'>
+        <img
+          src={!isPlayingMusic ? soundoff : soundon}
+          alt='jukebox'
+          onClick={() => setIsPlayingMusic(!isPlayingMusic)}
+          className='w-12 h-12 cursor-pointer object-contain'
+        />
+      </div>
     </section>
   );
 };

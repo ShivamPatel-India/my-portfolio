@@ -26,8 +26,12 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import java from './java.svg'
+import AWS from './AWS.svg'
+import talkwave from './talkwave.svg'
 
 export {
+    AWS,
     css,
     express,
     git,
@@ -55,5 +59,7 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    java,
+    talkwave
 }
