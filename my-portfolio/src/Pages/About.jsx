@@ -47,7 +47,7 @@ const About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">Work Experience.</h3>
+        <h3 className="subhead-text">My Journey</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
             Currently I am pursuing master's degree in computer science at Cal Poly Pomona, USA.
