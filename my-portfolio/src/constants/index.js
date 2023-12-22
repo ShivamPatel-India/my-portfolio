@@ -134,7 +134,7 @@ export const experiences = [
     iconBg: "#d9f2d9",
     date: "Aug 2023 - Present",
     points: [
-      "GPA: To be declared",
+      "GPA: 4.0/4.0",
       "Subjects: Advanced Algorithms Design and Analysis, Connected adn Autonomous Vehicles",
       "Project: Lane Detection in Severe Weather Condition",
     ],
