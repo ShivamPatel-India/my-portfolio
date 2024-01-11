@@ -21,6 +21,7 @@ import {
   AWS,
   talkwave,
   git,
+  formcraft,
 } from "../assets/icons";
 import { abjayon, cpp, ddu } from "../assets/images";
 
@@ -106,11 +107,11 @@ export const experiences = [
     iconBg: "#e6e6ff",
     date: "Jan 2022 - May 2022",
     points: [
-      "Developed a React-based healthcare survey app with an interactive 3D UI, capturing user data on surgeries and medications.",
-      "Integrated the application seamlessly with Salesforce APIs, ensuring secure and accurate retrieval of medical information.",
-      "Implemented rigorous Jest.JS unit tests, contributing to the application's robustness, and proactively resolved CORS-related issues.",
-      "Configured the app to store survey responses in AWS S3 objects, streamlining data management and ensuring secure submissions.",
-      "Deployed and optimized the application on AWS Amplify."
+      "Developed a React-based healthcare survey app with an interactive 3D UI for surgeries and medications.",
+      "Enhanced UI rendering by 35% by transitioning to AWS AppSync GraphQL APIs instead of REST API and by lazy loading.",
+      "Resolved CORS issues and integrated the web app with Salesforce APIs and AppSync APIs for secure and accurate information retrieval.",
+      "Implemented Jest.JS unit tests with 96% code coverage for reliability.",
+      "Configured the app to store the responses in AWS S3 and Deployed app on AWS Amplify for efficient performance."
     ],
   },
   {
@@ -120,22 +121,22 @@ export const experiences = [
     iconBg: "#ffe6e6",
     date: "June 2022 - July 2023",
     points: [
-      "Played a key role in the development of Matchgrid MedSleuth, a critical healthcare application, built using Java Spring MVC, facilitating rapid matching of live organ donors and recipients.",
-      "Implemented a sophisticated algorithm for matching live organ donors and recipients based on a range of medical factors.",
-      "Developed a robust functionality enabling the sharing of patient data among different hospitals, fostering a collaborative approach to finding optimal organ matches across associated medical organizations.",
-      "Engineered a comprehensive file storage system within the application, facilitating the secure storage and retrieval of various medical files of both recipients and donors.",
-       "Additionally, contributed to Google Drive integration and UI enhancements using Thymeleaf and CSS for an improved user experience.",
+      "Played a key role in the development of a healthcare application that facilitates rapid matching of live organ donors and recipients, built using Java Spring MVC.",
+      "Enhanced matching algorithm by 35% through batch processing and multithreading for quicker and more efficient live organ matching.",
+      "Implemented collaborative patient data sharing feature among hospitals for optimal matches, ensuring data security through encryption.",
+      "Enhanced medical file storage using AWS S3, boosting upload and retrieval speed by 30% compared to the previous database system.",
+      "Efficiently delivered microservices during the transition of a healthcare app from monolithic to microservices architecture on AWS, including Amazon ECS, AWS Lambda, and Amazon RDS",
     ],
   },
   {
     title: "Graduate Student in Computer Science",
-    company_name: "California State Polytechnic University, USA",
+    company_name: "Cal Poly Pomona, CA, USA",
     icon: cpp,
     iconBg: "#d9f2d9",
     date: "Aug 2023 - Present",
     points: [
       "GPA: 4.0/4.0",
-      "Subjects: Advanced Algorithms Design and Analysis, Connected adn Autonomous Vehicles",
+      "Subjects: Advanced Algorithms Design and Analysis, Connected and Autonomous Vehicles, Cloud Computing Practicum",
       "Project: Lane Detection in Severe Weather Condition",
     ],
   },
@@ -164,8 +165,16 @@ export const projects = [
     link: "https://github.com/ShivamPatel-India/TalkWave1.0",
   },
   {
-    iconUrl: estate,
+    iconUrl: formcraft,
     theme: "btn-back-green",
+    name: "FormCraft",
+    description:
+      "FormCraft is a user-friendly web app built with Next.js 13. Create and share forms effortlessly with a drag-and-drop interface. Choose from various fields, preview your form, and track visits and submissions. Simplifying form creation for everyone.",
+    link: "https://github.com/ShivamPatel-India/FormCraft",
+  },
+  {
+    iconUrl: estate,
+    theme: "btn-back-blue",
     name: "Konnect",
     description:
       "Konnect is a user-centric social platform offering secure authentication, content creation with reactions, follower dynamics, and automated content moderation. With tiered accounts and an admin portal, it ensures a safe, engaging space for users to connect and share meaningful content.",
@@ -181,7 +190,7 @@ export const projects = [
   },
   {
     iconUrl: snapgram,
-    theme: "btn-back-blue",
+    theme: "btn-back-green",
     name: "My Portfolio",
     description:
       "Welcome to My Portfolio! Explore my world through this personalized website made using React and ThreeJS, offering a unique experience. Engage with me through the Contact feature powered by EmailJS, and enjoy the added dimension of audio on the home page",

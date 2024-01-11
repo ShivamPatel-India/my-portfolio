@@ -29,6 +29,7 @@ import soundoff from './soundoff.png'
 import java from './java.svg'
 import AWS from './AWS.svg'
 import talkwave from './talkwave.svg'
+import formcraft from './formcraft.png'
 
 export {
     AWS,
@@ -61,5 +62,6 @@ export {
     soundon,
     soundoff,
     java,
-    talkwave
+    talkwave,
+    formcraft
 }
