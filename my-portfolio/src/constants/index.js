@@ -107,11 +107,11 @@ export const experiences = [
     iconBg: "#e6e6ff",
     date: "Jan 2022 - May 2022",
     points: [
-      "Developed a React-based healthcare survey app with an interactive 3D UI for surgeries and medications.",
-      "Enhanced UI rendering by 35% by transitioning to AWS AppSync GraphQL APIs instead of REST API and by lazy loading.",
-      "Resolved CORS issues and integrated the web app with Salesforce APIs and AppSync APIs for secure and accurate information retrieval.",
-      "Implemented Jest.JS unit tests with 96% code coverage for reliability.",
-      "Configured the app to store the responses in AWS S3 and Deployed app on AWS Amplify for efficient performance."
+      "•	Developed a React-based healthcare survey app with an interactive 3D UI for surgeries and medications.",
+      "Decreased UI rendering time and Network calls by 25% by transitioning to GraphQL APIs instead of RESTful APIs.",
+      "Resolved CORS problems and integrated the web app with Salesforce APIs and AppSync APIs.",
+      "Implemented Jest.JS unit tests with 96% code coverage for reliability. ",
+      "Configured the app to store the responses in AWS S3 and Deployed app on AWS Amplify for efficient performance."      
     ],
   },
   {
@@ -121,11 +121,12 @@ export const experiences = [
     iconBg: "#ffe6e6",
     date: "June 2022 - July 2023",
     points: [
-      "Played a key role in the development of a healthcare application that facilitates rapid matching of live organ donors and recipients, built using Java Spring MVC.",
-      "Enhanced matching algorithm by 35% through batch processing and multithreading for quicker and more efficient live organ matching.",
-      "Implemented collaborative patient data sharing feature among hospitals for optimal matches, ensuring data security through encryption.",
-      "Enhanced medical file storage using AWS S3, boosting upload and retrieval speed by 30% compared to the previous database system.",
-      "Efficiently delivered microservices during the transition of a healthcare app from monolithic to microservices architecture on AWS, including Amazon ECS, AWS Lambda, and Amazon RDS",
+      "Played a key role in the development of a critical healthcare application, built using Java Spring MVC, facilitating rapid matching of live organ donors and recipients.",
+      "Improved matching algorithm by 35% through batch processing and multithreading for rapid matching of recipients-donors.",
+      "Enhanced medical file storage using AWS S3, boosting upload and retrieval speed by 30% compared to DB approach.",
+      "Developed patient data sharing tool for synchronization across hospitals for optimal matches using web hooks.",
+      "Efficiently delivered microservices during the transition from monolithic to microservices architecture on AWS, including AWS Lambda and RDS.",
+      "Created scheduled cron jobs for the log entry cleanup in the system.",
     ],
   },
   {
@@ -163,6 +164,7 @@ export const projects = [
     description:
       "TalkWave is a dynamic communication platform, akin to Discord, designed to enhance real-time collaboration and interaction. Built using NextJS, this project seamlessly integrates various features to provide users with a versatile communication experience.",
     link: "https://github.com/ShivamPatel-India/TalkWave1.0",
+    liveLink: "https://talkwave10-production.up.railway.app/",
   },
   {
     iconUrl: formcraft,
@@ -171,6 +173,7 @@ export const projects = [
     description:
       "FormCraft is a user-friendly web app built with Next.js 13. Create and share forms effortlessly with a drag-and-drop interface. Choose from various fields, preview your form, and track visits and submissions. Simplifying form creation for everyone.",
     link: "https://github.com/ShivamPatel-India/FormCraft",
+    liveLink: "https://form-craft-eta.vercel.app/"
   },
   {
     iconUrl: estate,

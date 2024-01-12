@@ -22,8 +22,12 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          A software engineer based in California, US. I am currently pursuining
-          master's degree in computer science specialing in software development.
+          Welcome! I'm a Master's student in Computer Science, specializing in
+          Software Development. With hands-on experience in live projects as a
+          Software Engineer, I'm passionate about learning new technologies and
+          creating impactful solutions. Adaptable and user-focused, I'm equipped
+          with a versatile tech stack, always ready to switch gears based on
+          industry needs.F
         </p>
       </div>
 
@@ -34,7 +38,10 @@ const About = () => {
           {skills.map((skill) => (
             <div className="block-container w-20 h-20" key={skill.name}>
               <div className="btn-back rounded-xl" />
-              <div title={skill.name} className="btn-front rounded-xl flex justify-center items-center">
+              <div
+                title={skill.name}
+                className="btn-front rounded-xl flex justify-center items-center"
+              >
                 <img
                   src={skill.imageUrl}
                   alt={skill.name}
@@ -50,8 +57,10 @@ const About = () => {
         <h3 className="subhead-text">My Journey</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            Currently I am pursuing master's degree in computer science at Cal Poly Pomona, USA.
-            I have worked for 1 year at Abjayon Inc. as a software enginner. Here is the rundown of my journey:
+            Currently I am pursuing master's degree in computer science at Cal
+            Poly Pomona, USA. I have worked for 1.5 year at Abjayon Inc. as a
+            software engineer after completing my bachelor's degree. Here is the
+            rundown of my journey:
           </p>
         </div>
 

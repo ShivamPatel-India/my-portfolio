@@ -9,7 +9,7 @@ const HomeInfo = ({ currentStage }) => {
         Hi, I'm
         <span className="font-semibold mx-2 text-white">Shivam</span>
         👋
-        <br />I am studying computer science student at Cal Poly Pomona
+        <br />I am doing MS in computer science student at Cal Poly Pomona
         <br />
         <span className="text-base">Use ⬅️ and ➡️ to explore my Island</span>
       </h2>
@@ -19,11 +19,10 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          A software engineer with 2 years of work experience
+          I have 2 years of industry exposure in which I learned about best practices for software development.
         </p>
-
         <Link to="/about" className="neo-brutalism-white neo-btn">
-          Learn more
+          My journey
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
@@ -33,9 +32,8 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 3) {
     return (
       <div className="info-box">
-        <p className="font-medium text-center sm:text-xl">
-          Worked on multiple live corporate projects and personal/academic
-          projects
+        <p className="font-medium text-xs text-center sm:text-xl">
+          I keep working on personal/academic projects for good understanding of various technologies.
         </p>
 
         <Link to="/projects" className="neo-brutalism-white neo-btn">
