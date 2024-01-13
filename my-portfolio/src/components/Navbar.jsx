@@ -12,6 +12,15 @@ const Navbar = () => {
         <p className="blue-gradient_text">SP</p>
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
+      <NavLink
+          to="https://drive.google.com/file/d/1s53e1LqajBanFtpeTbml1JbEeXQSFbVz/view?usp=drive_link"
+          target="_blank"
+          className="text-black"
+        > 
+          {/* <a href="https://drive.google.com/file/d/1s53e1LqajBanFtpeTbml1JbEeXQSFbVz/view?usp=drive_link" className="decoration-black">Resume</a>
+           */}
+           Resume
+        </NavLink>
         <NavLink
           to="/about"
           className={({ isActive }) =>
