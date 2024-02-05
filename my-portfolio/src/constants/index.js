@@ -164,7 +164,7 @@ export const projects = [
     description:
       "TalkWave is a dynamic communication platform, akin to Discord, designed to enhance real-time collaboration and interaction. Built using NextJS, this project seamlessly integrates various features to provide users with a versatile communication experience.",
     link: "https://github.com/ShivamPatel-India/TalkWave1.0",
-    liveLink: "https://talkwave10-production.up.railway.app/",
+    liveLink: "https://talkwave-0uve.onrender.com",
   },
   {
     iconUrl: formcraft,
