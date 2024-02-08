@@ -13,12 +13,10 @@ const Navbar = () => {
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
       <NavLink
-          to="https://drive.google.com/file/d/1s53e1LqajBanFtpeTbml1JbEeXQSFbVz/view?usp=drive_link"
+          to="https://drive.google.com/file/d/1bqO8WMgarZxFVYVcuILnbp0oyYZ1arcs/view?usp=sharing"
           target="_blank"
           className="text-black"
         > 
-          {/* <a href="https://drive.google.com/file/d/1s53e1LqajBanFtpeTbml1JbEeXQSFbVz/view?usp=drive_link" className="decoration-black">Resume</a>
-           */}
            Resume
         </NavLink>
         <NavLink
