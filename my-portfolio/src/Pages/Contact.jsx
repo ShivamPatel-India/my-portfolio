@@ -90,7 +90,7 @@ const Contact = () => {
               type='text'
               name='name'
               className='input'
-              placeholder='Yor good name goes here'
+              placeholder='Your good name goes here'
               required
               value={form.name}
               onChange={handleChange}
