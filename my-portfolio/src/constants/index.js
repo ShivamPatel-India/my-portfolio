@@ -121,14 +121,14 @@ export const experiences = [
     iconBg: "#ffe6e6",
     date: "June 2022 - July 2023",
     points: [
-      "Spearheaded the development of a critical healthcare application named Medsleuth, facilitating rapid matching of living organ donors and recipients."
-      "Designed a custom classification algorithm using Artificial Neural Network layers to give important insights about the patients based on complex medical histories, blood types, HLA matching, and genetic markers."
-      "Improved matching algorithm by 35% through batch processing and multithreading for rapid matching of recipients-donors."
-      "Developed and maintained multiple microservices using Java Spring Boot related to role based authentication and authorization."  
-      "Leveraged AWS S3 to enhance medical file storage, boosting upload and retrieval speeds by 30%, and employed AWS Lambda and RDS in the deployment of microservices during the transition from monolithic architecture to a microservices-based architecture."
-      "Developed patient data sharing tool for synchronization across participating hospitals for optimal matches using web hooks."
-      "Automated the generation of detailed PDF reports, which included compatibility analysis, using iText and XHTML."
-      "Created scheduled cron jobs for the log entry cleanup in the system.",
+      "Spearheaded the development of a critical healthcare application named Medsleuth, facilitating rapid matching of living organ donors and recipients.",
+      "Designed a custom classification algorithm using Artificial Neural Network layers to give important insights about the patients based on complex medical histories, blood types, HLA matching, and genetic markers.",
+      "Improved matching algorithm by 35% through batch processing and multithreading for rapid matching of recipients-donors.",
+      "Developed and maintained multiple microservices using Java Spring Boot related to role based authentication and authorization.",
+      "Leveraged AWS S3 to enhance medical file storage, boosting upload and retrieval speeds by 30%, and employed AWS Lambda and RDS in the deployment of microservices during the transition from monolithic architecture to a microservices-based architecture.",
+      "Developed patient data sharing tool for synchronization across participating hospitals for optimal matches using web hooks.",
+      "Automated the generation of detailed PDF reports, which included compatibility analysis, using iText and XHTML.",
+      "Created scheduled cron jobs for the log entry cleanup in the system."
     ],
   },
   {
