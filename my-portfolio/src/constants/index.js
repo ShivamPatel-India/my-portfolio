@@ -107,7 +107,7 @@ export const experiences = [
     iconBg: "#e6e6ff",
     date: "Jan 2022 - May 2022",
     points: [
-      "•	Developed a React-based healthcare survey app with an interactive 3D UI for surgeries and medications.",
+      "Developed a React-based healthcare survey app with an interactive 3D UI for surgeries and medications.",
       "Decreased UI rendering time and Network calls by 25% by transitioning to GraphQL APIs instead of RESTful APIs.",
       "Resolved CORS problems and integrated the web app with Salesforce APIs and AppSync APIs.",
       "Implemented Jest.JS unit tests with 96% code coverage for reliability. ",
@@ -121,11 +121,13 @@ export const experiences = [
     iconBg: "#ffe6e6",
     date: "June 2022 - July 2023",
     points: [
-      "Played a key role in the development of a critical healthcare application, built using Java Spring MVC, facilitating rapid matching of live organ donors and recipients.",
-      "Improved matching algorithm by 35% through batch processing and multithreading for rapid matching of recipients-donors.",
-      "Enhanced medical file storage using AWS S3, boosting upload and retrieval speed by 30% compared to DB approach.",
-      "Developed patient data sharing tool for synchronization across hospitals for optimal matches using web hooks.",
-      "Efficiently delivered microservices during the transition from monolithic to microservices architecture on AWS, including AWS Lambda and RDS.",
+      "Spearheaded the development of a critical healthcare application named Medsleuth, facilitating rapid matching of living organ donors and recipients."
+      "Designed a custom classification algorithm using Artificial Neural Network layers to give important insights about the patients based on complex medical histories, blood types, HLA matching, and genetic markers."
+      "Improved matching algorithm by 35% through batch processing and multithreading for rapid matching of recipients-donors."
+      "Developed and maintained multiple microservices using Java Spring Boot related to role based authentication and authorization."  
+      "Leveraged AWS S3 to enhance medical file storage, boosting upload and retrieval speeds by 30%, and employed AWS Lambda and RDS in the deployment of microservices during the transition from monolithic architecture to a microservices-based architecture."
+      "Developed patient data sharing tool for synchronization across participating hospitals for optimal matches using web hooks."
+      "Automated the generation of detailed PDF reports, which included compatibility analysis, using iText and XHTML."
       "Created scheduled cron jobs for the log entry cleanup in the system.",
     ],
   },
@@ -137,7 +139,7 @@ export const experiences = [
     date: "Aug 2023 - Present",
     points: [
       "GPA: 4.0/4.0",
-      "Subjects: Advanced Algorithms Design and Analysis, Connected and Autonomous Vehicles, Cloud Computing Practicum",
+      "Subjects: Software Engineering, Machine Learning, Human-Computer Interaction, Information Retrieval, Advanced Algorithms Design and Analysis, Connected and Autonomous Vehicles, Cloud Computing Practicum",
       "Project: Lane Detection in Severe Weather Condition",
     ],
   },
